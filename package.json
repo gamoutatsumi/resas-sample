@@ -1,28 +1,9 @@
 {
   "name": "resas-chart",
-  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vite --mode dev",
-    "build": "tsc --noEmit && vite build",
-    "preview": "vite preview",
-    "lint": "eslint 'src/**/*.{ts,tsx}'",
-    "test": "jest",
-    "prepare": "simple-git-hooks",
-    "type:check": "tsc --noEmit"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm exec lint-staged"
-  },
-  "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "eslint",
-      "tsc --noEmit"
-    ]
-  },
+  "version": "1.0.0",
   "author": "gamoutatsumi",
-  "license": "UNLICENSED",
+  "bugs": "https://github.com/gamoutatsumi/resas-sample/issues",
   "dependencies": {
     "@emotion/css": "^11.5.0",
     "@emotion/react": "^11.7.0",
@@ -67,5 +48,30 @@
     "vite": "^2.6.14",
     "vite-tsconfig-paths": "^3.3.17"
   },
-  "packageManager": "pnpm@6.23.2"
+  "homepage": "https://github.com/gamoutatsumi/resas-sample",
+  "keywords": [
+    "react"
+  ],
+  "license": "UNLICENSED",
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "eslint",
+      "tsc --noEmit"
+    ]
+  },
+  "main": "index.js",
+  "packageManager": "pnpm@6.23.2",
+  "repository": "https://github.com/gamoutatsumi/resas-sample",
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "dev": "vite --mode dev",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "prepare": "simple-git-hooks",
+    "preview": "vite preview",
+    "test": "jest",
+    "type:check": "tsc --noEmit"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm exec lint-staged"
+  }
 }

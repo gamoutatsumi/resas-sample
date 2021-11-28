@@ -7,11 +7,10 @@ specifiers:
   '@babel/preset-typescript': ^7.16.0
   '@emotion/css': ^11.5.0
   '@emotion/react': ^11.7.0
+  '@jest/types': ^27.2.5
   '@testing-library/jest-dom': ^5.15.1
   '@testing-library/react': ^12.1.2
   '@types/facepaint': ^1.2.2
-  '@types/jest': ^27.0.3
-  '@types/node': ^16.11.10
   '@types/react': ^17.0.37
   '@types/react-dom': ^17.0.11
   '@typescript-eslint/eslint-plugin': ^5.4.0
@@ -62,11 +61,10 @@ devDependencies:
   '@babel/preset-env': 7.16.4_@babel+core@7.16.0
   '@babel/preset-react': 7.16.0_@babel+core@7.16.0
   '@babel/preset-typescript': 7.16.0_@babel+core@7.16.0
+  '@jest/types': 27.2.5
   '@testing-library/jest-dom': 5.15.1
   '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
   '@types/facepaint': 1.2.2
-  '@types/jest': 27.0.3
-  '@types/node': 16.11.10
   '@typescript-eslint/eslint-plugin': 5.4.0_5c8ff4cecd5a55e744866c0654edac32
   '@typescript-eslint/parser': 5.4.0_eslint@8.3.0+typescript@4.5.2
   '@vitejs/plugin-react': 1.1.0
@@ -82,7 +80,7 @@ devDependencies:
   jest: 27.3.1_ts-node@10.4.0
   lint-staged: 12.1.2
   simple-git-hooks: 2.7.0
-  ts-node: 10.4.0_36929cccfdb926da0bb85cc291f27124
+  ts-node: 10.4.0_typescript@4.5.2
   vite: 2.6.14
   vite-tsconfig-paths: 3.3.17_vite@2.6.14
 
@@ -4059,7 +4057,7 @@ packages:
       jest-validate: 27.3.1
       micromatch: 4.0.4
       pretty-format: 27.3.1
-      ts-node: 10.4.0_36929cccfdb926da0bb85cc291f27124
+      ts-node: 10.4.0_typescript@4.5.2
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -5653,7 +5651,7 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /ts-node/10.4.0_36929cccfdb926da0bb85cc291f27124:
+  /ts-node/10.4.0_typescript@4.5.2:
     resolution: {integrity: sha512-g0FlPvvCXSIO1JDF6S232P5jPYqBkRL9qly81ZgAOSU7rwI0stphCgd2kLiCrU9DjQCrJMWEqcNSjQL02s6d8A==}
     hasBin: true
     peerDependencies:
@@ -5672,7 +5670,6 @@ packages:
       '@tsconfig/node12': 1.0.9
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
-      '@types/node': 16.11.10
       acorn: 8.6.0
       acorn-walk: 8.2.0
       arg: 4.1.3

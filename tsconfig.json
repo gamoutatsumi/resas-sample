@@ -25,7 +25,7 @@
         "src/*"
       ]
     },
-    "types": ["vite/client", "@emotion/react/types/css-prop", "./src/**/types/*.d.ts", "jest", "jest-dom"]
+    "types": ["vite/client", "@emotion/react/types/css-prop", "jest"]
   },
   "include": [
     "src",

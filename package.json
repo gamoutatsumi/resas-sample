@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite --mode dev",
-    "build": "tsx --noEmit && vite build",
+    "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "test": "jest",
